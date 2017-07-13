@@ -1,10 +1,24 @@
+
 #startbutton {
-    background-color:#313A7D;
-    border: 0;
+  color: white;
+  background-color: #313A7D
+;
+  border-color: #313A7D
+;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
 }
 
-.btn-xl:hover {
-    -webkit-transform: scale(1.10);
-    -moz-transform: scale(1.10);
-    transform: scale(1.10);
+#startbutton:hover,
+#startbutton:focus,
+#startbutton:active,
+#startbutton.active,
+.open .dropdown-toggle.btn-xl {
+  color: black;
+  background-color: #313A7D;
+  border-color: #313A7D;
 }
