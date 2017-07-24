@@ -119,7 +119,11 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
-.btn-xl:hover,
+.btn-xl:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    transform: scale(1.10);
+}
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
